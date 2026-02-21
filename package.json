@@ -1,0 +1,9 @@
+{
+  "name": "pacing-landing",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "googleapis": "^144.0.0",
+    "resend": "^3.2.0"
+  }
+}
