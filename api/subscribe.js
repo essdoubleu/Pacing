@@ -47,7 +47,7 @@ module.exports = async function handler(req, res) {
 
     // ─── 2. Send Confirmation Email via Resend ───────────────────────────────
     await resend.emails.send({
-      from: "Pacing <onboarding@resend.dev>", // ← swap in your verified domain
+      from: "Pacing <hello@contact.getpacing.com>", // ← swap in your verified domain
       to: email,
       subject: "You're on the list 🟢",
       html: `
